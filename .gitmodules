@@ -1,0 +1,18 @@
+[submodule "main"]
+	path = main
+	url = https://github.com/QAndroid/main.git
+[submodule "common"]
+	path = common
+	url = https://github.com/QAndroid/common.git
+[submodule "summary"]
+	path = summary
+	url = https://github.com/QAndroid/summary.git
+[submodule "test"]
+	path = test
+	url = https://github.com/QAndroid/test.git
+[submodule "ui"]
+	path = ui
+	url = https://github.com/QAndroid/ui.git
+[submodule "function"]
+	path = function
+	url = https://github.com/QAndroid/function.git
