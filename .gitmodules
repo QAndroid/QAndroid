@@ -16,3 +16,12 @@
 [submodule "function"]
 	path = function
 	url = https://github.com/QAndroid/function.git
+[submodule "leakcanary-android"]
+	path = leakcanary-android
+	url = https://github.com/QAndroid/leakcanary.git
+[submodule "leakcanary-analyzer"]
+	path = leakcanary-analyzer
+	url = https://github.com/QAndroid/leakcanary.git
+[submodule "leakcanary-watcher"]
+	path = leakcanary-watcher
+	url = https://github.com/QAndroid/leakcanary.git
