@@ -25,3 +25,6 @@
 [submodule "leakcanary-watcher"]
 	path = leakcanary-watcher
 	url = https://github.com/QAndroid/leakcanary.git
+[submodule "logger"]
+	path = logger
+	url = https://github.com/QAndroid/logger.git
