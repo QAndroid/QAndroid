@@ -1,1 +1,1 @@
-include ':main', ':ui', ':function', ':common', ':test', ':summary', ':leakcanary-android', ':leakcanary-analyzer', ':leakcanary-watcher', ':logger'
+include ':main', ':ui', ':function', ':common', ':test', ':summary'
