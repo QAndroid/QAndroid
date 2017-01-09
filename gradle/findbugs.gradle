@@ -1,0 +1,25 @@
+apply plugin: 'findbugs'
+
+findbugs {
+    ignoreFailures = true
+    effort = "max"
+    reportLevel = "high"
+}
+
+task findBugs(type: FindBugs) {
+    group 'verification'
+    description 'use findbugs plugin to check  code standard.'
+
+    classes = files("./build/intermediates/classes")
+
+    source fileTree('src')
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+
+    classpath = files()
+}

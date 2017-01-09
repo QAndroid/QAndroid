@@ -18,6 +18,15 @@ allprojects {
     }
 }
 
+subprojects {
+    ext.configDir = new File(rootDir, 'config')
+
+    apply from: "$rootDir/gradle/checkstyle.gradle"
+    apply from: "$rootDir/gradle/pmd.gradle"
+    apply from: "$rootDir/gradle/findbugs.gradle"
+}
+
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

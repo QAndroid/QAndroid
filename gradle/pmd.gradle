@@ -1,0 +1,19 @@
+apply plugin: 'pmd'
+
+pmd {
+    ignoreFailures = true
+}
+
+task pmd(type: Pmd) {
+    group 'verification'
+    description 'use pmd plugin to check  code standard.'
+
+    source fileTree('src')
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+}
