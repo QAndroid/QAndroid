@@ -26,7 +26,6 @@ subprojects {
     apply from: "$rootDir/gradle/findbugs.gradle"
 }
 
-
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
